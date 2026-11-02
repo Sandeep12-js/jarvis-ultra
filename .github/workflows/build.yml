@@ -12,7 +12,7 @@ jobs:
 
       - name: Unpack project from zip
         run: |
-          unzip -q jarvis-ultra-source.zip -d build_src
+          unzip -q *.zip -d build_src
           ls build_src/jarvis-ultra
 
       - name: Set up Java 17
